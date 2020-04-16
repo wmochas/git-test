@@ -2,11 +2,16 @@
 repositorio para practicar conceptos de git y github
 
 Merge
+-----------------------------------------------
 
-si vamos hacer merge del master al branch release1
+Si vamos a pasar los cambios realizados en el **master** hacia el branch **release1**
 
-<<insertar comando>>
+* Nos hubicamos en el branch release 1: `git checkout release1`
+* Hacemos merge: _git merge master_
 
-Si vamos hacer merge del release1 al master
+Si vamos a pasar los cambios realizados en el **release1** hacia el branch **master**
 
-<<insertar comando>>
+* Nos hubicamos en el branch master: _git checkout master_
+* Hacemos merge: _git merge release1_
+
+Para mayor referencia ver: 
